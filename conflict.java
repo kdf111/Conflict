@@ -1,7 +1,7 @@
 public class conflict
 {
     private String  type;
-    private int     participants;
+    private int     idiots;
     private boolean solved;
     
     public String getType()
@@ -11,7 +11,7 @@ public class conflict
     
     public int getParticipants()
     {
-        return participants;
+        return idiots;
     }
     
     public boolean getSolved()
@@ -19,10 +19,10 @@ public class conflict
         return solved;
     }
 
-    public conflict(String neuType, int neuParticipants, boolean neuSolved)
+    public conflict(String neuType, int neuIdiots, boolean neuSolved)
     {
         type = neuType;
-        participants = neuParticipants;
+        idiots = neuIdiots;
         solved = neuSolved;
     }
     
