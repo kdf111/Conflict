@@ -4,6 +4,13 @@ public class conflict
     private int     participants;// Kevin is an idiot
     private boolean solved;
     private String Test;
+
+    public conflict(String newType, int newParticipants, boolean newSolved)
+    {
+        setType(newType);
+        setParticipants(newParticipants);
+        setSolved(newSolved);
+    }    
     
     public String getType()
     {
@@ -24,11 +31,14 @@ public class conflict
     {
         type = newType;
     }
-
-    public conflict(String neuType, int neuIdiots, boolean neuSolved)
+    
+    public void setParticipants(int newParticipants)
     {
-        type = neuType;
-        participants = neuIdiots;
-        solved = neuSolved;
+        participants = newParticipants;
+    }
+    
+    public void setSolved(boolean newSolved)
+    {
+        solved = newSolved;
     }
 }
