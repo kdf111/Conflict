@@ -25,4 +25,5 @@ public class conflict
         participants = neuParticipants;
         solved = neuSolved;
     }
+    
 }
