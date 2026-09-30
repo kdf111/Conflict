@@ -15,4 +15,14 @@ public class Getrank
     {
         return alcohol;
     }
+    
+    public int getMililiter()
+    {
+        return mililiter;
+    }
+    
+    public boolean getBottled()
+    {
+        return bottled;
+    }
 }
