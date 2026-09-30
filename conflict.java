@@ -18,4 +18,11 @@ public class conflict
     {
         return solved;
     }
+
+    public conflict(String neuType, int neuParticipants, boolean neuSolved)
+    {
+        type = neuType;
+        participants = neuParticipants;
+        solved = neuSolved;
+    }
 }
