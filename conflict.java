@@ -20,6 +20,11 @@ public class conflict
     {
         return solved;
     }
+    
+    public void setType(String newType)
+    {
+        type = newType;
+    }
 
     public conflict(String neuType, int neuIdiots, boolean neuSolved)
     {
