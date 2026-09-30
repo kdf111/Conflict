@@ -4,6 +4,21 @@ public class conflict
     private int     participants;
     private boolean solved;
     
+    public String getType()
+    {
+        return type;
+    }
+    
+    public int getParticipants()
+    {
+        return participants;
+    }
+    
+    public boolean getSolved()
+    {
+        return solved;
+    }
+
     public conflict(String neuType, int neuParticipants, boolean neuSolved)
     {
         type = neuType;
