@@ -4,6 +4,7 @@ public class conflict
     private int     participants;// Kevin is an idiot
     private boolean solved;
     private String Test;
+    private int Testnummer;
 
     public conflict(String newType, int newParticipants, boolean newSolved)
     {
