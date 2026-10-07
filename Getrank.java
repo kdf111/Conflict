@@ -38,7 +38,7 @@ public class Getrank
     
     public void setMililiter(int newMililiter)
     {
-        if(200<newMililiter && newMililiter<1000)
+        if(200<=newMililiter && newMililiter<=1000)
         {
             mililiter = newMililiter;
         }
