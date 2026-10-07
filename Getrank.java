@@ -30,4 +30,31 @@ public class Getrank
     {
         return deposit;
     }
+    
+    public void setName(String newName)
+    {
+        name = newName;
+    }
+    
+    public void setMililiter(int newMililiter)
+    {
+        if(200<newMililiter && newMililiter<1000)
+        {
+            mililiter = newMililiter;
+        }
+        else
+        {
+            System.out.println("mililiter not supported");
+        }
+            
+    }
+    
+    public void printGetrank()
+    {
+        /*
+         * printing Getrank like:
+         * Getraenk: Beer, 500ml
+         */
+        System.out.println("Getraenk:" + name + "," + mililiter + "ml");
+    }
 }
