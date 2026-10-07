@@ -4,6 +4,7 @@ public class Getrank
     private boolean alcohol;
     private int     mililiter;
     private boolean bottled;
+    private boolean deposit;
     
     public String getName()
     {
@@ -23,5 +24,10 @@ public class Getrank
     public boolean getBottled()
     {
         return bottled;
+    }
+    
+    public boolean getDeposit()
+    {
+        return deposit;
     }
 }
